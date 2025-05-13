@@ -1,0 +1,52 @@
+section{
+    width: 90%;
+    height:700px;
+    background-image: url(https://1000logos.net/wp-content/uploads/2022/06/Polaroid-logo.png);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    scale: 50%;
+}
+
+button{
+    font-size: 5em;
+    transform: translate(10px,600px);
+    transition: transform 0.5s ease-in-out;
+    border-radius: 10px;
+
+}
+
+button:hover{
+
+    transform: translate(10px,590px);
+    color: white;
+    background-color: rgb(175, 156, 156);
+    border-radius: 20px;
+    cursor: pointer;
+
+
+}
+
+button:active{
+    color:orange;
+    background-color: rgb(203, 198, 188);
+    
+
+}
+
+.nav{
+    font-size: 1em;
+    margin:10px;
+    transform: translate(-750px,-1000px);
+
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translate(600px,70px)
+}
+
+footer{
+    transform: translateY(-100px);
+}
